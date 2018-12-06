@@ -1,6 +1,1 @@
 User-agent: *
-Disallow: /cgi-bin/
-Disallow: /picture_library/
-Disallow: /script/
-
-
