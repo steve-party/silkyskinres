@@ -230,6 +230,13 @@ img.homeposter {
   float: left;
 }
 
+img.map{
+  width: 45%;
+  max-width: 357px;
+  display: inline-block;
+  float: right;
+}
+
 article.homeintroduction {
   width: 60%;
   padding-left:
@@ -241,7 +248,15 @@ article.homeintroduction {
 article.homeintroduction p.firstparagraph {
   margin-top: 0px;
 }
-
+article.introduction{
+  margin-bottom: 10px;
+}
+article.contactinfo{
+  display: inline-block;
+  float: left;
+  width:55%;
+  padding: 0px 10px 0px 5px;
+}
 .productsection {
   padding: 20px 0px 0px 0px;
   clear: both;
@@ -276,6 +291,44 @@ article.homeintroduction p.firstparagraph {
 .headingnavlinks, .headingnavlinks a {
   font-size: 11px;
   color: #555;
+}
+
+.contentbox {
+  background-color: #fbf0f8;
+  border: solid 1px #edbfe2;
+  width: 100%;
+  margin-bottom: 10px;
+  float: left;
+  padding: 10px 10px 10px 10px;
+}
+.contentbox h1{
+  font-size: 14px;
+  color: #b72286;
+  font-weight: bold;
+  border-bottom: 0;
+}
+.inlineimage {
+  display:inline;
+  float: right;
+}
+p.paymentmethod {
+  color: #b72286;
+  font-weight: bold;
+  clear: both;
+  padding-top: 10px;
+}
+address .addrleft {
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+address .addrright {
+  display: inline-block;
+  width: 50%;
+  float:right;
+}
+address {
+  font-style: normal;
 }
 
 footer {
@@ -335,6 +388,13 @@ footer a:hover {
   article.homeintroduction {
     width: 100%;
     margin-top: 10px;
+  }
+  article.contactinfo {
+    width: 100%;
+  }
+  img.map {
+    width: 100%;
+    max-width: none;
   }
 }
 
@@ -604,13 +664,7 @@ footer a:hover {
   float: left;
 }
 
-.box {
-  background-color: #fbf0f8;
-  border: solid 1px #edbfe2;
-  width: 735px;
-  float: left;
-  padding: 10px 10px 10px 10px;
-}
+
 
 .box1 {
   background-color: #fbf0f8;
@@ -628,10 +682,7 @@ footer a:hover {
   padding: 10px 0px 10px 0px;
 }
 
-.boxheading {
-  font-size: 14px;
-  color: #b72286;
-}
+
 
 .heading {
   background-color: #facae6;

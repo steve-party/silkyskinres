@@ -1,44 +1,120 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<meta name="description" content="SilkySkin Beauty & Nails is located at Lower Earley, Reading, Winnersh, Winnersh Triangle, Wokingham, near Mainden Place Lower Earley.
-			Public transport is also very convenient. 
-			Bus no. 21 is within walking distance."/>
-<meta name="Keywords" content="contact, direction, phone, mobile, email, silkyskin,silky skin, beauty, beauty salon, Reading, Earley, lower Earley, woodley, Berkshire, Winnersh, Wokingham, 
-ASDA lower Earley, RG6 3TE, RG6, RG2"/>
-<link rel="stylesheet" href="style/style.css" type="text/css">
-<style>
-      #map {
-        width: 357px;
-        height: 357px;
-      }
-    </style>
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script>
-        function initialize() {
-            var mapCanvas = document.getElementById('map');
-            var mapOptions = {
+<!DOCTYPE HTML>
+<html lang="EN">
 
-                center: new google.maps.LatLng(51.428440, -0.904410),
-                zoom: 16,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            }
-            var map = new google.maps.Map(mapCanvas, mapOptions)
-            var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(51.427273, -0.904448),
-                map: map,
-                title: 'SilkySkin Beauty & Nails'
-            });
-        }
-        google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="SilkySkin Beauty & Nails is located at Lower Earley, Reading, Winnersh, Winnersh Triangle, Wokingham, near Mainden Place Lower Earley.
+			Public transport is also very convenient.
+			Bus no. 21 is within walking distance."/>
+<meta name="Keywords" content="contact, direction, phone, mobile, email, silkyskin,silky skin, beauty, beauty salon, Reading, Earley, lower Earley, woodley, Berkshire, Winnersh, Wokingham,
+ASDA lower Earley, RG6 3TE, RG6, RG2"/>
+<link rel="stylesheet" href="style/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="script/script.js"></script>
 
 <title>SilkySkin Beauty and Nails | Contact Information</title>
 </head>
-
 <body>
+	<header>
+		<div class="headerinfo">
+			<img class="headerimage" src="image/header.jpg">
+			<nav class="topnavmenue" id="topnavbar">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="semi_permanent_makeup.html">Semi-Permanent Makeup </a></li>
+					<li><a href="beauty_treatments.html">Beauty </a></li>
+					<li><a href="nail_treatments.html">Nails </a></li>
+					<li><a href="products.html">Products </a></li>
+					<li><a href="special_offers.html">Special Offers </a></li>
+					<li><a href="price_list.html">Price List </a></li>
+					<li><a href="gift_voucher.html">Gift Vouchers </a></li>
+					<li><a href="opening_hours.html">Opening Hours </a></li>
+					<li><a href="contact.html">Contact </a></li>
+					<li> <a href="javascript:void(0);" class="icon" onclick="reponsiveTopMemue();">
+							<span class="fa fa-bars"></span></a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="mainbody">
+    <div class="mainpannel">
+      <section class="headingsection">
+        <p class="headingnavlinks"><a href="index.html">Home</a> &raquo; <strong>Contact us</strong></p>
+        <article class="introduction">
+          <h1>Contact us</h1>
+        </article>
+      </section>
+      <section class="contentsection">
+          <article class="contactinfo">
+            <p>
+              <strong><span class="bigger">All</span> treatments must be pre-booked by phone or email.
+              If you want to cancel or alter your appointment, please give us a 24-hour notice.</strong>
+            </p>
+            <address>
+              <div class="addrleft">
+                <h2>Address:</h2>
+                24 Wickham Road <br>
+                Lower Earley <br>
+                Reading <br>
+                Berkshire <br>
+                RG6 3TE
+              </div>
+              <div class="addrright">
+                <h2>Phone:</h2>
+                <strong>01189871410</strong>
+                <h2>Mobile:</h2>
+                <strong>07596318592</strong>
+                <h2>Email:</h2>
+                <a href="mailto:info@silkyskinbeauty.co.uk">info@silkyskinbeauty.co.uk</a>
+              </div>
+            </address>
+            <p class="paymentmethod">
+              Payments can be made by cheque or cash.
+            </p>
+          </article>
+          <a href="https://www.google.com/maps/place/SilkySkin+Beauty+Nails+%26+Permanent+Makeup+Microblading+Micropigmentation/@51.4287827,-0.9095899,16z/data=!4m5!3m4!1s0x48768350d721faf7:0x1dc97c93ee1c2b80!8m2!3d51.427256!4d-0.904427" target="_blank" title="Click to view in Google Map"><img src="image/map.jpg" alt="SilkySkin Beauty & Nails Map Location" class="map"></a>
+      </section>
+		</div>
+    <div class="sidenavpannel">
+      <nav class="sidenavmenue">
+        <ul>
+          <li><strong><a href="semi_permanent_makeup.html">Semi Permanent Makeup</a></strong></li>
+          <li><a href="semi_permanent_makeup/eyebrow.html">Semi Permanent Eyebrows</a></li>
+          <li><a href="semi_permanent_makeup/eyeliner.html">Semi Permanent Eyeliners</a></li>
+          <li><a href="semi_permanent_makeup/lips.html">Semi Permanent Lips</a></li>
+        </ul>
+        <ul>
+          <li><strong><a href="beauty_treatments.html">Beauty Treatments</a></strong></li>
+          <li><a href="facial/facial.html">Facial Treatments</a></li>
+          <li><a href="face_lift/face_lift.html">Non-surgical Facial Lifting</a></li>
+          <li><a href="body/body.html">Body Treatments</a></li>
+          <li><a href="eye/eye.html">Eye Treatments</a></li>
+          <li><a href="package/package.html">Luxury Packages</a></li>
+          <li><a href="waxing/waxing.html">Waxing</a></li>
+          <li><a href="spray_tan/spray_tan.html">Spray Tan</a></li>
+        </ul>
+        <ul>
+          <li><strong><a href="nail_treatments.html">Nail Treatments</a></strong></li>
+          <li><a href="manicures/manicures.html">Manicures</a></li>
+          <li><a href="pedicures/pedicures.html">Pedicures</a></li>
+          <li><a href="acrylic_nail/acrylic_nail.html">Acrylic Nails Extension</a></li>
+          <li><a href="gel_nail/gel_nail.html">Gel Nails Extension</a></li>
+          <li><a href="soak-off_gel_nails/soak-off_gel_nail.html">Soak-off Colour Gel Nails</a></li>
+        </ul>
+      </nav>
+      <a href="http://www.babtac.com" target="_blank"><img src="image/babtac.jpg"></a>
+    </div>
+	</div>
+	<footer>
+    Copyright &copy; <script type="text/javascript">
+      var year = new Date();
+      document.write(year.getFullYear());
+    </script>. SilkySkin Beauty &amp; Nails. Address: 24 Wickham Road, Lower Earley, Reading, RG6 3TE. Tel: 01189871410. Mobile: 07596318592. <a href="sitemap.html">Sitemap</a>
+  </footer>
+</body>
+</html>
+
 <div id="main">
 <div class="maininn">
 <div id="spiffycalendar" class="text"></div>
@@ -72,7 +148,7 @@ ASDA lower Earley, RG6 3TE, RG6, RG2"/>
 
 	 <div class="maintop">
 	 <div class="maintopun">
-	 
+
 	 <div class="sidenavarea">
 		<div class="sidenavout">
 		<div class="sidenav">
@@ -92,7 +168,7 @@ ASDA lower Earley, RG6 3TE, RG6, RG2"/>
 				<!--<li><a href="makeup/makeup.html">Make-up</a></li>-->
 				<li><a href="waxing/waxing.html">Waxing</a></li>
 				<li><a href="spray_tan/spray_tan.html">Spray Tan</a></li>
-			</ul>	
+			</ul>
 
 			<ul>
 				<li style=" list-style-type:none "><strong><a href="nail_treatments.html">Nail Treatments</a></strong></li>
@@ -101,28 +177,28 @@ ASDA lower Earley, RG6 3TE, RG6, RG2"/>
 				<li><a href="acrylic_nail/acrylic_nail.html">Acrylic Nails Extension</a></li>
 				<li><a href="gel_nail/gel_nail.html">Gel Nails Extension</a></li>
                 <li><a href="soak-off_gel_nails/soak-off_gel_nail.html">Soak-off Colour Gel Nails</a></li>
-			</ul>	
+			</ul>
         </div>
 		</div>
-		
+
 		<div style="float: left; height: 2px;">&nbsp;</div>
 			<div align="center"><a href="http://www.babtac.com" target="_blank"><img border="0" src="image/babtac.jpg"/></a></div>
-			<div style="float: left; height: 10px;">&nbsp;</div>       
+			<div style="float: left; height: 10px;">&nbsp;</div>
 		</div>
-		 
+
      <div class="welcometxt">
 	 <div style="background-color: rgb(255, 255, 255); height: 100%;">
         	<div class="content">
-			
-        	<p class="breadcrum"><a href="index.html">Home</a> » <strong>Contact us</strong></p>
+
+        	<p class="breadcrum"><a href="index.html">Home</a> ï¿½ <strong>Contact us</strong></p>
         	<h1>Contact us</h1>
-			
+
 			<div class="contentcontact">
             <p>
-			<strong><font size="+2">All</font> treatments must be pre-booked by phone or email. 
+			<strong><font size="+2">All</font> treatments must be pre-booked by phone or email.
 			If you want to cancel or alter your appointment, please give us a 24-hour notice.</strong>
 			</p>
-			
+
 			<div class="contentsub">
 			<h2>Address:</h2>
 			<p>24 Wickham Road,<br>Lower Earley,<br>Reading,<br>Berkshire,<br>RG6 3TE.</p>
@@ -135,29 +211,27 @@ ASDA lower Earley, RG6 3TE, RG6, RG2"/>
 			<h2>Email:</h2>
 			<a href="mailto:info@silkyskinbeauty.co.uk">info@silkyskinbeauty.co.uk</a>
 			</div>
-			<div style="float: left; width: 384px; height: 5px;">&nbsp;</div> 
+			<div style="float: left; width: 384px; height: 5px;">&nbsp;</div>
 			<!--<h2>How to find us:</h2>
 			<p>SilkySkin Beauty & Nails is located at Lower Earley, Reading,
 			near Maiden Place Lower Earley.</p>
 			<p>Public transport is also very convenient. Bus no. 21 is within walking distance.</p>-->
 
 			<p><span style="color:#b72286 "><strong>Payments can be made by cheque or cash.</strong></span></p>
-			
+
       		</div>
 			<!--<div class="contentmap"><p><img src="image/map.jpg"/></p></div>-->
-		    <div class="contentmap" id="map"></div>	
+		    <div class="contentmap" id="map"></div>
 
             </div>
-			
-			
-        </div></div></div>
-	  	  
-		
 
-	    <div class="footer"><div style="width: 100%; float: left; text-align:center">Copyright © <script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script>. SilkySkin Beauty &amp; Nails. Address: 24 Wickham Road, Lower Earley, Reading, RG6 3TE. Tel: 01189871410. Mobile: 07596318592. <a href="sitemap.html">Sitemap</a></div></div>
+
+        </div></div></div>
+
+
+
+	    <div class="footer"><div style="width: 100%; float: left; text-align:center">Copyright ï¿½ <script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script>. SilkySkin Beauty &amp; Nails. Address: 24 Wickham Road, Lower Earley, Reading, RG6 3TE. Tel: 01189871410. Mobile: 07596318592. <a href="sitemap.html">Sitemap</a></div></div>
 
    </div>
   </div>
 </div>
-</body>
-</html>
