@@ -12,6 +12,10 @@ body {
   text-align: justify
 }
 
+* {
+  box-sizing: border-box;
+}
+
 a {
   color: #b72286;
   text-decoration: underline;
@@ -34,20 +38,41 @@ h2, h3, h4, h5, h6 {
   margin-top: 10px;
   margin-bottom: 5px;
 }
-
-td {
+table {
+  width: 100%;
+  border-spacing: 1px;
+  border-collapse: 1px;
+}
+th, td {
   padding: 5px 5px 5px 5px;
   background: #FEDEFC;
   vertical-align: middle;
-  text-align: left
+  text-align: center;
+}
+th.treatment{
+  width: 50%;
+}
+th.duration{
+  width: 10%;
+}
+th.offerprice{
+  width: 20%;
+}
+th.fullprice{
+  width: 20%;
+}
+
+tbody th, tfoot th {
+  text-align: left;
+  font-weight:lighter;
+}
+
+.contentbox h2{
+  margin-top: 0px;
 }
 
 a:hover {
   text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 span.bigger {
