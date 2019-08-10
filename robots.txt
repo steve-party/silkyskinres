@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /~bak/
+Disallow: /special_offers.html
